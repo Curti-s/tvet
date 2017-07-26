@@ -53,13 +53,15 @@
   border-radius: 6rem;
   border: 2px solid #888a8c;
   background-color: transparent;
-  padding: 1.5rem 2rem;
+  padding: .85rem 2rem;
   font-size: 2rem;
   font-weight: 400;
   font-family: "Signika Negative", sans-serif;
 }
 #banner .intro a .btn-primary:hover, #banner .intro a .btn-primary:focus, #banner .intro a .btn-primary:active {
   border: 2px solid #00E5EE;
+  background-color: #eee;
+  color: #00e5ee;
 }
 
 #sub_intro {
@@ -112,6 +114,20 @@
   font-family: "Raleway", sans-serif;
   letter-spacing: .25rem;
 }
+#mission a>.btn-primary{
+  border-radius: 6rem;
+  border: 2px solid #888a8c;
+  background-color: transparent;
+  padding: .85rem 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Signika Negative", sans-serif;
+  color: #888a8c;
+}
+#mission a>.btn-primary:hover, #mission a>.btn-primary:focus, #mission a>.btn-primary:active{
+  border: 2px solid #00E5EE;
+  background-color: #eee;
+}
 
 #about {
   padding: 9rem 0 9rem 0;
@@ -144,6 +160,7 @@
   background-repeat: no-repeat;
   background-color: #b8cfdb;
   opacity: .9;
+  padding: 30px 0 80px 0;
 }
 #services .fa-industry, #services .fa-building-o, #services .fa-road, #services .fa-tint, #services .fa-wrench, #services .fa-globe, #services .fa-bolt, #services .fa-signal {
   border: 2px solid #00E5EE;
@@ -182,6 +199,29 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+#services .fa-link, #services .fa-leanpub, #services .fa-briefcase, #services .fa-database
+{
+    border: 2px solid #00E5EE;
+    border-radius: 6rem;
+    padding: 3.5rem;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+#services li>a
+{
+  text-decoration: none;
+  font-weight: 700;
+  color: #ddd;
+  line-height: 1em;
+}
+
+#services li > a:hover, #services li > a:focus, #services li > a:active  
+{
+  color: #00E5EE;
+}
+
 #services .services_body {
   color: #888a8c;
   font-family: "Raleway", sans-serif;
